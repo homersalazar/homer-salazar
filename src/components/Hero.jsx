@@ -79,7 +79,7 @@ const Hero = () => {
                             data-aos-delay="700"
                             data-aos-duration="500"
                         >
-                                I am a Web Developer from Valenzuela, Philippines. I enjoying creating things that live on the internet. I'm passionate about software development and I'm skilled in HTML, JavaScript, and PHP. I'm now looking for a junior dev position.
+                                I am a Web Developer from Valenzuela, Philippines. I enjoy creating things that live on the internet. I'm passionate about software development and skilled in HTML, JavaScript, and PHP. Currently looking for a junior dev openings.
                                 </p>
                         <p 
                             className='max-sm:text-xl md:text-xl lg:text-xl xl:text-2xl'
@@ -102,7 +102,7 @@ const Hero = () => {
                                     When did it all started?
                                 </h1>
                                 <p className='leading-relaxed mb-5'>
-                                    I started liking web development when I was in 2nd year high school. It was when we have a computer subject; I started interest in browsing in Internet daily - then i started wondering how do website created. From there I decided what course i am going to take.   
+                                    I started liking web development when I was in 2nd year high school. It all begun during our computer subject when i developed an interest in daily browsing. The curiosity led me to wonder about the process of creating websites. From that point on, I made up my mind about the course I wanted to pursue.   
                                 </p>
                             </div>
                         </div>
