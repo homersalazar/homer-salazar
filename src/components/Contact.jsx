@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -10,11 +10,15 @@ const Contact = () => {
 
     emailjs.sendForm('service_iyw0qre', 'template_zspg4ho', form.current, 'R2d1Cs7TamwdujlQZ')
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+        console.log(result.text);
+        alert('Your message has been sent successfully!');
+        form.current.reset();
+      })
+      .catch((error) => {
+        console.log(error.text);
       });
   };
+
   return (
     <div id='contact'>
       <form ref={form} onSubmit={sendEmail} id='myForm'>

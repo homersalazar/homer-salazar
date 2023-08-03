@@ -63,7 +63,7 @@ const Portfolio = () => {
               <div className="grid grid-cols-2 gap-2 md:px-2 py-5">
                 <div><i className="fa-solid fa-arrow-right"></i> HTML</div>
                 <div><i className="fa-solid fa-arrow-right"></i> CSS</div>
-                <div><i className="fa-solid fa-arrow-right"></i> Javascript</div>
+                <div><i className="fa-solid fa-arrow-right"></i> JavaScript</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Bootstrap</div>
                 <div><i className="fa-solid fa-arrow-right"></i> PHP</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Mysql</div>
@@ -99,7 +99,7 @@ const Portfolio = () => {
               <div className="grid grid-cols-2 gap-2 md:px-2 py-5">
                 <div><i className="fa-solid fa-arrow-right"></i> HTML</div>
                 <div><i className="fa-solid fa-arrow-right"></i> CSS</div>
-                <div><i className="fa-solid fa-arrow-right"></i> Javascript</div>
+                <div><i className="fa-solid fa-arrow-right"></i> JavaScript</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Bootstrap</div>
                 <div><i className="fa-solid fa-arrow-right"></i> PHP</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Mysql</div>
@@ -135,7 +135,7 @@ const Portfolio = () => {
               <div className="grid grid-cols-2 gap-2 md:px-2 py-5"> 
               <div><i className="fa-solid fa-arrow-right"></i> HTML</div>
                 <div><i className="fa-solid fa-arrow-right"></i> CSS</div>
-                <div><i className="fa-solid fa-arrow-right"></i> Javascript</div>
+                <div><i className="fa-solid fa-arrow-right"></i> JavaScript</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Bootstrap</div>
                 <div><i className="fa-solid fa-arrow-right"></i> PHP</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Mysql</div>
@@ -177,7 +177,7 @@ const Portfolio = () => {
               <div className="grid grid-cols-2 gap-2 md:px-2 py-5"> 
                 <div><i className="fa-solid fa-arrow-right"></i> HTML</div>
                 <div><i className="fa-solid fa-arrow-right"></i> CSS</div>
-                <div><i className="fa-solid fa-arrow-right"></i> Javascript</div>
+                <div><i className="fa-solid fa-arrow-right"></i> JavaScript</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Tailwind</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Laravel</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Mysql</div>
@@ -213,7 +213,7 @@ const Portfolio = () => {
               <div className="grid grid-cols-2 gap-2 md:px-2 py-5"> 
                 <div><i className="fa-solid fa-arrow-right"></i> HTML</div>
                 <div><i className="fa-solid fa-arrow-right"></i> CSS</div>
-                <div><i className="fa-solid fa-arrow-right"></i> Javascript</div>
+                <div><i className="fa-solid fa-arrow-right"></i> JavaScript</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Tailwind</div>
                 <div><i className="fa-solid fa-arrow-right"></i> PHP</div>
                 <div><i className="fa-solid fa-arrow-right"></i> Open Weather API</div>
@@ -255,7 +255,7 @@ const Portfolio = () => {
               <div className="grid grid-cols-2 gap-2 md:px-2 py-5"> 
               <div><i className="fa-solid fa-arrow-right"></i> HTML</div>
                   <div><i className="fa-solid fa-arrow-right"></i> CSS</div>
-                  <div><i className="fa-solid fa-arrow-right"></i> Javascript</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> JavaScript</div>
                   <div><i className="fa-solid fa-arrow-right"></i> Tailwind</div>
                   <div><i className="fa-solid fa-arrow-right"></i> PHP</div>
                   <div><i className="fa-solid fa-arrow-right"></i> MealDB API</div>
@@ -278,6 +278,120 @@ const Portfolio = () => {
             <div className='max-sm:order-1'>
               <img 
                 src="https://user-images.githubusercontent.com/110954891/253801616-d7789f2a-3b2e-4583-bfb7-8dd51fbfa0e1.png"
+                alt="" 
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='grid grid-cols-2 max-sm:grid-cols-1 gap-5 justify-items-center'>
+            <div className='max-sm:order-2'>
+              <h1 className='text-xl lg:text-xl xl:text-2xl max-sm:text-center bg-primary rounded-lg shadow-lg p-2'>
+                Dad Jokes              
+              </h1>
+              <div className='max-sm:text-xl md:text-xl lg:text-lg xl:text-xl indent-8 leading-relaxed pt-5'>
+                <span   
+                  className='border-b-2 border-outline'
+                >
+                  Dad Jokes               
+                </span> is a Joke generated App, built with ReactJs and powered by the Dad jokes API. Enjoy endless groan-worthy humor at the tap of a button. React brings a smooth and interactive experience, while the API serves up fresh dad jokes for non-stop laughter. Simple, fun, and perfect for all the dad joke enthusiasts out there!
+              </div>
+              <div className="grid grid-cols-2 gap-2 md:px-2 py-5"> 
+                  <div><i className="fa-solid fa-arrow-right"></i> React Js</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> Tailwind</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> API</div>
+              </div>
+              <div className="flex pb-10 gap-5">
+                <a className="bg-primary px-5 py-3 rounded-xl hover:bg-transparent hover:text-outline" 
+                  href="https://github.com/homersalazar/Dad-Jokes"
+                  target='_blank'
+                >
+                  Repo <i className="fa-brands fa-github"></i> 
+                </a>
+                <a className="bg-primary px-5 py-3 rounded-xl hover:bg-transparent hover:text-outline" 
+                  href="https://dad-corny-jokes.netlify.app/"
+                  target='_blank'
+                >
+                  View Demo <i className="fa-solid fa-arrow-up-right-from-square"></i> 
+                </a>
+              </div>
+            </div>
+            <div className='max-sm:order-1'>
+              <img 
+                src="https://user-images.githubusercontent.com/110954891/257380362-49317a4a-0170-41d1-9b16-4959409b2862.png"
+                alt="" 
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='grid grid-cols-2 max-sm:grid-cols-1 gap-5 justify-items-center'>
+            <div className='max-sm:order-2'>
+              <h1 className='text-xl lg:text-xl xl:text-2xl max-sm:text-center bg-primary rounded-lg shadow-lg p-2'>
+                Number Facts              
+              </h1>
+              <div className='max-sm:text-xl md:text-xl lg:text-lg xl:text-xl indent-8 leading-relaxed pt-5'>
+                Discover &nbsp;
+                <span   
+                  className='border-b-2 border-outline'
+                >
+                  Number facts               
+                </span> with my React app and API combo! Enter any number, and be amazed by fascinating numerical tidbits. Simple, fun, and full of surprises!
+              </div>
+              <div className="grid grid-cols-2 gap-2 md:px-2 py-5"> 
+                  <div><i className="fa-solid fa-arrow-right"></i> React Js</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> Tailwind</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> API</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> JavaScript</div>
+              </div>
+              <div className="flex pb-10 gap-5">
+                <a className="bg-primary px-5 py-3 rounded-xl hover:bg-transparent hover:text-outline" 
+                  href="https://github.com/homersalazar/Number-facts"
+                  target='_blank'
+                >
+                  Repo <i className="fa-brands fa-github"></i> 
+                </a>
+              </div>
+            </div>
+            <div className='max-sm:order-1'>
+              <img 
+                src="https://user-images.githubusercontent.com/110954891/256534313-313e4fa0-44cb-4e19-9736-f6de9bf12e55.png"
+                alt="" 
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className='grid grid-cols-2 max-sm:grid-cols-1 gap-5 justify-items-center'>
+            <div className='max-sm:order-2'>
+              <h1 className='text-xl lg:text-xl xl:text-2xl max-sm:text-center bg-primary rounded-lg shadow-lg p-2'>
+                Bubbly Blendz              
+              </h1>
+              <div className='max-sm:text-xl md:text-xl lg:text-lg xl:text-xl indent-8 leading-relaxed pt-5'>
+                <span   
+                  className='border-b-2 border-outline'
+                >
+                  Bubbly Blendz               
+                </span> is a Cocktail App, built with React Js and powered by The Cocktail API. This app offers a delightful array of cocktail recipes at your fingertips. Shake up your evenings with a vast selection of concoctions, and discover new favorites with ease. With Bubbly Blendz, mixing the perfect cocktail has never been more fun and effortless!"
+              </div>
+              <div className="grid grid-cols-2 gap-2 md:px-2 py-5"> 
+                <div><i className="fa-solid fa-arrow-right"></i> React Js</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> JavaScript</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> Tailwind</div>
+                  <div><i className="fa-solid fa-arrow-right"></i> Cocktail API</div>
+              </div>
+              <div className="flex pb-10 gap-5">
+                <a className="bg-primary px-5 py-3 rounded-xl hover:bg-transparent hover:text-outline" 
+                  href="https://github.com/homersalazar/Bubbly-Blendz"
+                  target='_blank'
+                >
+                  Repo <i className="fa-brands fa-github"></i> 
+                </a>
+                <a className="bg-primary px-5 py-3 rounded-xl hover:bg-transparent hover:text-outline" 
+                  href="https://bubbly-blendz.netlify.app/"
+                  target='_blank'
+                >
+                  View Demo <i className="fa-solid fa-arrow-up-right-from-square"></i> 
+                </a>
+              </div>
+            </div>
+            <div className='max-sm:order-1'>
+              <img 
+                src="https://user-images.githubusercontent.com/110954891/257382897-efe38441-a71f-4622-b4e0-c409c6d367b6.png"
                 alt="" 
               />
             </div>

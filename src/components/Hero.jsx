@@ -79,7 +79,7 @@ const Hero = () => {
                             data-aos-delay="700"
                             data-aos-duration="500"
                         >
-                                I am a Web Developer from Valenzuela, Philippines. I enjoy creating things that live on the internet. I'm passionate about software development and skilled in HTML, JavaScript, and PHP. Currently looking for a junior dev openings.
+                                I am a Web Developer from Valenzuela, Philippines. I enjoy creating things that live on the internet. I'm passionate about software development and skilled in HTML, JavaScript, and PHP. Currently looking for a junior dev position.
                                 </p>
                         <p 
                             className='max-sm:text-xl md:text-xl lg:text-xl xl:text-2xl'

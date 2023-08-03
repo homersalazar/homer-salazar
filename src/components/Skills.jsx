@@ -52,6 +52,14 @@ const Skills = () => {
               </div>  
               <div className='flex justify-center flex-col items-center max-h-75 cursor-pointer hover:scale-110 transition-transform duration-200'>
                 <img 
+                  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                  alt="Reactjs" 
+                  className='h-14 hover:scale-x-1.9 hover:scale-y-1.9'
+                />
+                <span>React Js</span>
+              </div>  
+              <div className='flex justify-center flex-col items-center max-h-75 cursor-pointer hover:scale-110 transition-transform duration-200'>
+                <img 
                   src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" 
                   alt="Tailwind css"
                   className='h-14 hover:scale-x-1.9 hover:scale-y-1.9' 
